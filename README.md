@@ -1,5 +1,11 @@
 # Physics Informed Neural Network for the 1D Heat Equation
-Implemented a PINN to solve the 1D heat equation by embedding the PDE directly into the loss function.
+Implemented a PINN to solve the 1D heat equation by embedding the PDE directly into the loss function. 
+with an error of 
+Time 0.0: MSE = 3.614315e-04
+Time 0.05: MSE = 7.310123e-05
+Time 0.1: MSE = 3.154772e-05
+Time 0.2: MSE = 3.021047e-05
+Time 0.5: MSE = 5.497234e-05
 
 import torch
 import torch.nn as nn
